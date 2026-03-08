@@ -25,14 +25,10 @@ class StudentPerformance:
             if len(self.scores) == 0: 
                 raise Exception
             
-            else:
-                last_score = self.scores[-1]
-                first_score = self.scores[0]
-                
-                print(f'Last score {last_score}')
-                print(f'First score {first_score}')
-                
-                print('Difference between last and first score is: ', abs(last_score - first_score))
+            last_score = self.scores[-1]
+            first_score = self.scores[0]
+            
+            print('Difference between last and first score is: ', last_score - first_score)
         
         except:
            print('No scores available to calculate difference')    
