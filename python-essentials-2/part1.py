@@ -28,7 +28,7 @@ class StudentMarks:
         except:
             print("Not enough marks to calculate average")
            
-marks = [50, 60]
+marks = [50, 60, 70, 80, 90]
 
 student = StudentMarks(marks)
 student.last_three_avg()
