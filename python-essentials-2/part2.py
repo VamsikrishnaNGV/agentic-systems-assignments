@@ -32,6 +32,6 @@ class StudentScores:
         except:
             print('Not enough scores to find highest value')            
     
-scores = [45, 67, 89, 72, 90]
+scores = [45, 67, 89, 72]
 studentScores = StudentScores(scores)
 studentScores.highest_last_two()  
